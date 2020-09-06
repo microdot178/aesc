@@ -1,1 +1,12 @@
 AES encryptor/decryptor.
+
+usage: 
+aesc [--option] [dir/file] [cryptkey]       encrypt/decrypt file or dir
+aesc --generate [keyname]                   generate cryptkey
+aesc --help                                 help
+
+options:
+--encrypt or -e
+--decrypt or -d
+--generate or -gen
+--help or -h
